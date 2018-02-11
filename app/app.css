@@ -1,0 +1,43 @@
+﻿@import '~nativescript-theme-core/css/core.light.css';
+
+.action-bar {
+  background-color: #1e2430;
+  color: #fff;
+  font-family: LibreFranklin-Regular, Libre Franklin, system;
+}
+
+Label,
+Button {
+  font-family: LibreFranklin-Regular, Libre Franklin, system;
+}
+
+.btn-wp-sub {
+  font-size: 14;
+  color: #fff;
+}
+
+.heading {
+  color: #fff;
+  font-family: LibreFranklin-Regular, Libre Franklin, system;
+  font-weight: 500;
+}
+
+.wp-category {
+  font-size: 26;
+}
+
+.wp-posttitle {
+  font-size: 16;
+}
+
+.wp-subtitle {
+  font-size: 14;
+  color: #1e2430;
+}
+
+.bg {
+  background-image: ~/images/bg.png;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

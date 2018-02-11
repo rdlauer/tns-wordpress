@@ -1,0 +1,15 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+	class="page bg"
+	backgroundSpanUnderStatusBar="true">
+
+    <Page.actionBar>
+        <ActionBar title="WordPress + NativeScript = ❤️" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+    <StackLayout class="p-20">
+        <Label text="WordPress Demo" class="h1 text-center m-t-30 heading"/>
+        <Button text="Load Categories" tap="showCategories" class="btn btn-primary btn-active"/>
+    </StackLayout>
+	
+</Page>
